@@ -7,10 +7,10 @@ I ingested sample Apache and SSH logs into Splunk, created searches to identify 
 
 - [`Install Splunk`](##-Install-Splunk)</br>
 - Parse and analyze web (Apache) and SSH logs
-- Detect brute-force, scanning, and DoS attempts
+- [Detect brute-force, scanning, and DoS attempts](##-Detect-Brute-force,-Scanning,-and-DoS-Attempts )
 - Visualize traffic patterns by IP and time
 - Match IPs against blacklist data
-- Generate simple event summary tables and dashboards
+- Generate simple event dashboards
 
 
 ## Install Splunk
@@ -172,8 +172,21 @@ Shows how many events matched your blacklist and from which IP.
 - **Screenshot:**
   <img width="1920" height="734" alt="badip" src="https://github.com/user-attachments/assets/2370eddb-cb75-47dc-8e68-269b53c78db1" />
 
-  ## 
 
+## GenerateD Simple Event Dashboards
+
+The Intrusion Detection Dashboard provides a clear visual summary of all analyzed security events. It displays key insights such as brute-force attempts, port scanning activity, possible DoS attacks, access trends over time, and detected blacklisted IPs. Each panel represents a specific detection use case, making it easy to monitor suspicious patterns and identify potential threats at a glance. This dashboard helps visualize log data in an organized and beginner-friendly way, turning raw security events into actionable insights.
+
+* **Screenshots:**
+  <img width="861" height="795" alt="dash1" src="https://github.com/user-attachments/assets/f8d1212d-f32f-444e-993a-753cf9c6793a" />
+
+  <img width="1031" height="822" alt="dash2" src="https://github.com/user-attachments/assets/5b22f5fa-43fb-40d3-8f6c-49e8d25d779b" />
+
+
+## Conclusion
+
+This project demonstrates how Splunk can be effectively used to detect and visualize potential security threats from log data. By analyzing SSH and Apache logs, identifying abnormal patterns, and correlating with blacklisted IPs, it showcases the fundamental steps of intrusion detection. The dashboard provides a clear, real-time view of network activities, making it easier to recognize and respond to suspicious behavior. Overall, this project serves as a practical foundation for beginners to understand log-based threat detection and security monitoring using Splunk.
+ 
 
   
 
