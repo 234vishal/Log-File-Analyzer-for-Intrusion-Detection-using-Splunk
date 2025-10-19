@@ -7,7 +7,7 @@ I ingested sample Apache and SSH logs into Splunk, created searches to identify 
 
 - [`Install Splunk`](##-Install-Splunk)</br>
 - Parse and analyze web (Apache) and SSH logs
-- [Detect brute-force, scanning, and DoS attempts](##-Detect-Brute-force,-Scanning,-and-DoS-Attempts )
+- [Detect brute-force, scanning, and DoS attempts](##-Detect-Brute-force,-Scanning,-and-DoS-Attempts )</br>
 - Visualize traffic patterns by IP and time
 - Match IPs against blacklist data
 - Generate simple event dashboards
