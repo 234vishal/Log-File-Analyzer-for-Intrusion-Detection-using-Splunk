@@ -5,9 +5,9 @@ I ingested sample Apache and SSH logs into Splunk, created searches to identify 
 
 # Objective
 
-- [`Install Splunk`](##-Install-Splunk)</br>
+- Install Splunk
 - Parse and analyze web (Apache) and SSH logs
-- [Detect brute-force, scanning, and DoS attempts](##-Detect-Brute-force,-Scanning,-and-DoS-Attempts )</br>
+- Detect brute-force, scanning, and DoS attempts
 - Visualize traffic patterns by IP and time
 - Match IPs against blacklist data
 - Generate simple event dashboards
@@ -178,9 +178,10 @@ Shows how many events matched your blacklist and from which IP.
 The Intrusion Detection Dashboard provides a clear visual summary of all analyzed security events. It displays key insights such as brute-force attempts, port scanning activity, possible DoS attacks, access trends over time, and detected blacklisted IPs. Each panel represents a specific detection use case, making it easy to monitor suspicious patterns and identify potential threats at a glance. This dashboard helps visualize log data in an organized and beginner-friendly way, turning raw security events into actionable insights.
 
 * **Screenshots:**
-  <img width="861" height="795" alt="dash1" src="https://github.com/user-attachments/assets/f8d1212d-f32f-444e-993a-753cf9c6793a" />
+  
+   <img width="861" height="795" alt="dash1" src="https://github.com/user-attachments/assets/f8d1212d-f32f-444e-993a-753cf9c6793a" />
 
-  <img width="1031" height="822" alt="dash2" src="https://github.com/user-attachments/assets/5b22f5fa-43fb-40d3-8f6c-49e8d25d779b" />
+   <img width="1031" height="822" alt="dash2" src="https://github.com/user-attachments/assets/5b22f5fa-43fb-40d3-8f6c-49e8d25d779b" />
 
 
 ## Conclusion
